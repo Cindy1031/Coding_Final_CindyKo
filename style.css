@@ -1,0 +1,180 @@
+* {
+  box-sizing: border-box;
+  margin: 30px;
+  padding: 0;
+}
+
+
+body {
+  color: var(--black);
+  background: var(--background);
+  text-align: justify;
+}
+
+h1{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background: #d9a45f;
+  font-size: 60px;
+  color: White;
+  font-family: 'Fascinate', cursive;
+  border-radius: 20px;
+}
+
+h2{
+  background: #d9a45f;
+  font-size: 40px;
+  color: White;
+  font-family: 'Fascinate', cursive;
+}
+
+#footer {
+  background:#d9a45f;
+}
+
+.container1 {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  color: #826434;
+  font-family: 'Rubik', sans-serif;
+  font-size: 20px;
+}
+
+.container1 img{
+  width: 500px;
+  margin-right: 20px;
+  border-radius: 20px;
+}
+
+p{
+  text-align: left;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.footer {
+background-color: #d9a45f;
+}
+
+.footer a {
+  color: White;
+  font-size: 20px;
+}
+
+body {
+   margin: 30px;
+   font-family: 'Rubik', sans-serif;
+ }
+
+ .topnav {
+   border-radius: 20px;
+   overflow: hidden;
+   background-color: #d9a45f;
+ }
+
+ .topnav a {
+   float: left;
+   display: block;
+   color: White;
+   text-align: center;
+   text-decoration: none;
+   font-size: 20px;
+ }
+
+ .topnav a:hover {
+   color: #826434;
+ }
+
+ .topnav a.active {
+   background-color: #d9a45f;
+   color: #826434;
+ }
+
+ .fname{
+  font-family: 'Rubik', sans-serif;
+  color: White;
+  font-size: 20px;
+}
+
+ /* Style inputs with type="text", select elements and textareas */
+ input[type=text], select, textarea {
+   width: 100%; /* Full width */
+   padding: 12px; /* Some padding */
+   border: 1px solid white; /* Gray border */
+   border-radius: 20px; /* Rounded borders */
+   box-sizing: border-box; /* Make sure that padding and width stays in place */
+   margin-top: 6px; /* Add a top margin */
+   margin-bottom: 6px; /* Bottom margin */
+   margin: 5px;
+   resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+   font-family: 'Rubik', sans-serif;
+ }
+
+ /* Style the submit button with a specific background color etc */
+ input[type=submit] {
+   background-color: White;
+   color: #d9a45f;
+   padding: 12px 20px;
+   border: none;
+   border-radius: 20px;
+   cursor: pointer;
+   font-family: 'Rubik', sans-serif;
+   font-size: 20px;
+ }
+
+ /* When moving the mouse over the submit button, add a darker green color */
+ input[type=submit]:hover {
+   background-color: #fadeaf;
+   font-family: 'Rubik', sans-serif;
+   font-size: 20px;
+   color:#826434;
+ }
+
+ /* Add a background color and some padding around the form */
+ .container {
+   border-radius: 20px;
+   background-color: #d9a45f;
+   padding: 20px;
+   font-family: 'Rubik', sans-serif;
+   font-size: 20px;
+   color: white;
+ }
+
+ div.gallery {
+   border: 5px solid #d9a45f;
+    border-radius: 20px;
+   width: 370px;
+   float:right;
+ }
+
+ div.gallery:hover {
+   border: 5px solid #fadeaf;
+   border-radius: 20px;
+ }
+
+ div.gallery img {
+   width: 300px;
+   height: 300px;
+   border-radius: 20px;
+   float: left;
+ }
+
+ div.desc {
+   text-align: center;
+   font-family: 'Rubik', sans-serif;
+   font-size: 20px;
+   color: #d9a45f;
+ }
